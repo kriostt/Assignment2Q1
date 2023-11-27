@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1">
+    <title>Assignment 2 Question 1</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+    <script src="Assignment2Q1.js"></script>
+    <link rel="stylesheet" href="Assignment2Q1.css">
+  </head>
+
+  <body>
+    <header>
+      <ul>
+        <li class="navbar"><a href="index.html">Home</a></li>
+        <li class="navbar"><a href="interactions.html">Interactions</a></li>
+        <li class="navbar"><a href="widgets.html" class="active">Widgets</a></li>
+        <li class="navbar"><a href="effects.html">Effects</a></li>
+      </ul>
+    </header>
+
+    <section>
+      <h1>Widgets</h1>
+      <p class="intro">Below are simple examples for implementing accordion, autocomplete, date picker, and slider widgets.</p>
+      <hr>
+
+      <div>
+        <h2>Accordion</h2>
+        <p class="intro">Creates vertically stacked set of content panels with one active at a time.</p>
+        <div id="accordion">
+          <h3>Open me!</h3>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Donec vitae lectus tincidunt, volutpat elit vitae, gravida arcu. 
+              Vivamus nec pellentesque elit, non rhoncus justo. 
+              Etiam ac lectus massa. Cras porttitor euismod justo non eleifend. 
+              Suspendisse sollicitudin odio iaculis enim elementum, eget bibendum purus 
+              elementum. Sed lorem sapien, egestas et dictum vitae, feugiat nec dolor. 
+              Vestibulum venenatis dui vel ligula volutpat, a ultricies ipsum pretium. 
+              Suspendisse non gravida purus. Etiam finibus mi non purus malesuada placerat. 
+            </p>
+          </div>
+
+          <h3>Open me too!</h3>
+          <div>
+            <p>
+              Nullam augue tellus, lobortis nec enim ac, facilisis congue felis. 
+              Vivamus laoreet, augue sit amet molestie sagittis, augue nulla porttitor 
+              ex, a sagittis turpis turpis id est. In euismod sem arcu, eget pharetra 
+              risus vehicula at. Vivamus quis nibh non leo efficitur scelerisque. Vivamus 
+            </p>
+            <p>
+              Duis eget interdum erat. Sed tempor sodales dui, non placerat 
+              ligula tincidunt euismod. Suspendisse ut velit leo. Cras posuere 
+              risus sed leo tincidunt interdum. Ut vitae turpis sit amet justo 
+            </p>
+          </div>
+
+          <h3>Don't forget about me!</h3>
+          <div>
+            <p>
+              Morbi gravida tristique turpis, sed pharetra nunc gravida in. 
+              Sed ornare euismod lorem ut condimentum. Donec ut dignissim turpis. 
+              Fusce ultricies nunc at sem rhoncus, sodales faucibus sapien blandit. 
+              Morbi dictum finibus dictum. Aliquam erat volutpat.  
+            </p>
+            <p>
+              Morbi sed aliquam lacus, non varius lacus. 
+              Cras dignissim augue vel orci rutrum convallis. 
+              In lacus leo, posuere vitae semper vitae, vulputate at ex. 
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div>
+        <h2>Autocomplete</h2>
+        <p class="intro">Provides suggestions while typing into an input field.</p>
+        <div id="autocomplete" class="ui-widget">
+          <label for="colours">Enter a colour:</label><br>
+          <input id="colours" type="text" placeholder="Colour">
+        </div>
+      </div>
+      <hr>
+      
+      <div>
+        <h2>Date picker</h2>
+        <p class="intro">Enables users to select dates from a calendar.</p>
+        <div id="datepicker" class="ui-widget">
+          <label for="date">Date:</label><br>
+          <input id="date" type="text" placeholder="Date">
+        </div>
+      </div>
+      <hr>
+
+      <div>
+        <h2>Slider</h2>
+        <p class="intro">Allows the user to select a value by sliding a handle along a track.</p>
+        <p id="sliderText">Change the value of my opacity with the slider below.</p>
+        <div id="slider"></div>
+      </div>
+    </section>
+
+    <footer data-role="footer"> <h4>Krisanne Apostol &copy; 2023</h4></footer>
+  </body>
+</html>

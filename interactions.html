@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1">
+    <title>Assignment 2 Question 1</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+    <script src="Assignment2Q1.js"></script>
+    <link rel="stylesheet" href="Assignment2Q1.css">
+  </head>
+
+  <body>
+    <header>
+      <ul>
+        <li class="navbar"><a href="index.html">Home</a></li>
+        <li class="navbar"><a href="interactions.html" class="active">Interactions</a></li>
+        <li class="navbar"><a href="widgets.html">Widgets</a></li>
+        <li class="navbar"><a href="effects.html">Effects</a></li>
+      </ul>
+    </header>
+
+    <section>
+      <h1>Interactions</h1>
+      <p class="intro">Below are simple examples for implementing draggable, droppable, resizable, and selectable interactions.</p>
+      <hr>
+
+      <div>
+        <h2>Draggable</h2>
+        <p class="intro">Allows elements to be dragged around the page.</p>
+        <div id="draggable" class="ui-widget-content">
+          <p>Drag me!</p>
+        </div>
+      </div>
+      <hr>
+
+      <div>
+        <h2>Droppable</h2>
+        <p class="intro">Defines an area where elements can be dropped.</p>
+        <div id="droppable" class="ui-widget-content">
+          <p>Drop the draggable object here!</p>
+        </div>
+      </div>
+      <hr>
+
+      <div>
+        <h2>Resizable</h2>
+        <p class="intro">Enables resizing of the element.</p>
+        <div id="resizable" class="ui-widget-content">
+          <p>Resize me!</p>
+        </div>
+      </div>
+      <hr>
+
+      <div>
+        <h2>Selectable</h2>
+        <p class="intro">Allows for the selection of elements using the mouse.</p>
+        <div id="selectable">
+          <p class="ui-widget-content">Select me!</li>
+          <p class="ui-widget-content">Select me too!</li>
+          <p class="ui-widget-content">Try to select me too!</li>
+          </div>
+      </div>
+    </section>
+
+    <footer data-role="footer"> <h4>Krisanne Apostol &copy; 2023</h4></footer>
+  </body>
+</html>
